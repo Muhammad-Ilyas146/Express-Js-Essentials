@@ -1,0 +1,43 @@
+The `colors` module in Node.js provides a variety of color options to style your console output. Here are the available color options:
+
+### Text Colors
+- `black`
+- `red`
+- `green`
+- `yellow`
+- `blue`
+- `magenta`
+- `cyan`
+- `white`
+- `gray` (or `grey`)
+
+### Background Colors
+- `bgBlack`
+- `bgRed`
+- `bgGreen`
+- `bgYellow`
+- `bgBlue`
+- `bgMagenta`
+- `bgCyan`
+- `bgWhite`
+
+### Text Styles
+- `reset`
+- `bold`
+- `dim`
+- `italic` (not widely supported)
+- `underline`
+- `inverse`
+- `hidden`
+- `strikethrough` (not widely supported)
+
+### Usage Example
+Here's how you can use these color options in your code:
+
+```javascript
+import colors from 'colors';
+
+console.log('This is a red text'.red);
+console.log('This is a green text with a yellow background'.green.bgYellow);
+console.log('This is a bold and blue text'.bold.blue);
+```
