@@ -1,5 +1,5 @@
 # Express-Js-Essentials
-
+This project is a comprehensive guide to building a web server using Express.js, a minimal and flexible Node.js web application framework. It covers the essential concepts and functionalities required to create robust and scalable web applications. The guide includes setting up an Express server, handling different types of requests, working with middleware,Controlers,ejs Module  and integrating various utilities and tools.
 ## Table of Contents
 
 1. Introduction
